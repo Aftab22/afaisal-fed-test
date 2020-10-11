@@ -1,0 +1,99 @@
+
+
+
+.title {
+    color: #2c3e50;
+    font-family: "Coda", sans-serif;
+    text-align: center;
+  }
+  .user-profile {
+    margin: auto;
+    width: 27em;
+    height: 11em;
+    background: #fff;
+    border-radius: 0.3em;
+    padding: 1em;
+    margin: 1em auto;
+    border-right: 1px solid #cc0000;
+    border-left: 1px solid #cc0000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-out;
+    position: relative;
+  }
+  
+  .user-profile:hover {
+    border-left: 50px solid #cc0000;
+    transition: all 0.3s ease-out;
+  }
+  
+  .user-profile #fullname {
+    margin: auto;
+    margin-top: -4.4em;
+    margin-left: 5.8em;
+    color: #cc0000;
+    font-size: 1.53em;
+    font-family: "Coda", sans-serif;
+    font-weight: bold;
+  }
+  
+  #username {
+    margin: auto;
+    display: inline-block;
+    margin-left: 10.43em;
+    color: #3498db;
+    font-size: 0.87em;
+    font-family: "varela round", sans-serif;
+    cursor: pointer;
+  }
+  
+  .user-profile > .description {
+    margin-left: 9rem;
+    color: #cc0000;
+    font-size: 1.53em;
+    font-family: "Coda", sans-serif;
+    font-weight: bold;
+  
+    color: #7f8c8d;
+    font-size: 0.87em;
+    font-family: "varela round", sans-serif;
+  }
+  
+  .user-profile > img#avatar {
+    padding: 0.2em;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+    height: 7em;
+    width: 7em;
+    border-radius: 18em;
+    /*   target red */
+    background-color: #cc0000;
+  }
+  
+  /* Black and white */
+  #avatar {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  }
+  
+  /* Disable grayscale on hover */
+  #avatar:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+  
+  /* Black and white */
+  
+  #target_logo {
+    width: 1.5em;
+    margin: 1em;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .target_color {
+    color: #cc0000;
+  }
+  

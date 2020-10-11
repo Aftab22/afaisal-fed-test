@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Coda', sans-serif;
+}
+
+body {
+	background: #f3f3f3;
+	padding: 2.23em;
+	transition: all 0.3s ease-out;
+}
+
+a {
+	text-decoration: none;
+}

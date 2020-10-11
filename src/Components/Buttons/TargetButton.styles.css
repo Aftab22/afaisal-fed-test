@@ -1,0 +1,27 @@
+/* BUTTON */
+
+button {
+	font-size: 1em;
+	background: #cc0000;
+	color: #fff;
+	border: 1px solid #cc0000;
+	padding: 0.85em 0.75em;
+	margin: 1rem;
+	z-index: 1;
+	overflow: hidden;
+	transition: all 0.3s ease-in;
+}
+
+button:hover {
+	color: #cc0000;
+	background: #fff;
+	transition: all 0.3s ease-out;
+}
+
+#fetch-more-button {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* BUTTON */

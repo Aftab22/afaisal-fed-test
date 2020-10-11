@@ -46,6 +46,14 @@ const js = {
 	loaders: ['babel-loader']
 };
 
+const css ={
+	test: /\.css$/,
+	use: [
+	  'style-loader',
+	  'css-loader'
+	]
+  }
+
 const svg = {
 	test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
 	use: [
@@ -147,7 +155,7 @@ const defaultConfig = {
 		}
 	},
 	module: {
-		rules: [js, svg, images]
+		rules: [js, svg, images ,css]
 	},
 	optimization: {
 		splitChunks: {
