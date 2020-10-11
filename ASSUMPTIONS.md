@@ -1,11 +1,19 @@
 ## Description of my solution
 
-Talk us through your solution, thought process etc here.
+* Redux -For managing the user list and adding more users to user list.
+* Redux-Thunk - For updating state asynchronously.
+* React-Router - For multi page behaviour.
+
 
 ## Things I would do next
 
-Anything that you didn't get time to do should go here.
+* SCSS -  Move to scss for cleanliness.
+* Unit testing - Add jest unit testing.
+*
 
 ## Assumptions that I made
 
-Any assumptions that were made about the application - this could be around acceptance criteria etc.
+I only had a few hours to complete this due to other commitments. Would do better if i had more time.
+Hoping to hear back from you.
+
+Requesting feedback on my code. To improve myself.
